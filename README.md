@@ -50,7 +50,7 @@ pip install -r requirements.txt
 Make sure `playingCards.pt` and your test video (if not using a webcam) are in the correct directory.
 
 ```bash
-python main_detector.py
+python PokerDetection.py
 ```
 
 ---
