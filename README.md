@@ -10,7 +10,7 @@
 
 ## 🎬 Demo
 
-*(Insert your GIF or short demo video here to showcase real-time detection, bounding boxes, and evaluated poker hands.)*
+.\detection\Poker_Detection.gif
 
 ---
 
