@@ -10,7 +10,7 @@
 
 ## 🎬 Demo
 
-.\detection\Poker_Detection.gif
+(./detection/Poker_Detection.gif)
 
 ---
 
