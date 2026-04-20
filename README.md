@@ -83,18 +83,6 @@ This ensures system stability even under noisy detection conditions.
 
 ---
 
-### Dynamic UI & Responsive Boundaries
-
-Hardcoded UI positions can cause text overflow when displaying long labels (e.g., "Straight Flush") or when resizing video input.
-
-Solution:
-
-* Use OpenCV’s `getTextSize()` to calculate text dimensions dynamically
-* Automatically adjust positioning to keep text fully visible on screen
-
-This creates a flexible and resolution-independent UI.
-
----
 
 ## 📌 Notes
 
@@ -106,7 +94,7 @@ This creates a flexible and resolution-independent UI.
 
 ## 📄 License
 
-*(Add your license here, e.g., MIT License)*
+*(MIT License)*
 
 ---
 
