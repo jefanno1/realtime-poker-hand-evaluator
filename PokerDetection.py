@@ -12,16 +12,19 @@ model = YOLO(r".\model\playingCards.pt")
 
 cap = cv2.VideoCapture(r".\source\PokerHands.mp4")
 
-frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)) 
+frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)) 
 fps = int(cap.get(cv2.CAP_PROP_FPS))
+
+new_width = int(frame_width * 0.5)
+new_height = int(frame_height * 0.5)
 
 output_dir = r'.\detection'
 output_file = os.path.join(output_dir, "Poker_Detection.mp4")
 
 os.makedirs(output_dir, exist_ok=True)
 
-out = cv2.VideoWriter(output_file, cv2.VideoWriter_fourcc(*"mp4v"),fps,(frame_height,frame_width))
+out = cv2.VideoWriter(output_file, cv2.VideoWriter_fourcc(*"mp4v"), fps, (new_width, new_height))
 
 
 if not cap.isOpened():
