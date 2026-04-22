@@ -94,7 +94,7 @@ This ensures system stability even under noisy detection conditions.
 
 ## 📄 License
 
-*(MIT License)*
+[LICENSE](LICENSE)
 
 ---
 
