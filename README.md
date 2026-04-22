@@ -35,7 +35,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/realtime-poker-hand-evaluator.git
+git clone https://github.com/jefanno1/realtime-poker-hand-evaluator.git
 cd realtime-poker-hand-evaluator
 ```
 
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ### 3. Run the Detector
 
-Make sure `playingCards.pt` and your test video (if not using a webcam) are in the correct directory.
+Make sure `playingCards.pt` and your test video (if not using a webcam) are in the correct directory. (following the project structure)
 
 ```bash
 python PokerDetection.py
